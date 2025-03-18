@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bdi element</title>
+    </head>
+    <body>
+        <bdi>
+            Some text present here
+        </bdi>
+        <!-- The Below Code Is Without Using BDI Element -->
+
+        <p>: 100</p>
+        <p>Ruchika Rai:  90</p>
+        <p>Shubash Kumar:  105</p>
+
+        <!-- The Below Code Is With Using BDI Element -->
+
+        <p><bdi></bdi>:  100</p>
+        <p>Ruchika Rai:  90</p>
+        <p>Shubash Kumar:  105</bdi></p>
+        <p>Order: 123 - Customer: محمد</p>
+        <p>Order: 124 - Customer: John</p>
+
+        <p>Order: 125 - Customer: <bdi>محمد</bdi></p>
+        <p>Order: 126 - Customer: <bdi>John</bdi></p>
+
+    </body>
+</html>

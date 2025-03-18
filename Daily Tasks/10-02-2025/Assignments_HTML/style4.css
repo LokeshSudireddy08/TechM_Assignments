@@ -1,0 +1,17 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+body{
+    background-color: black;
+    color : white;
+}
+#tribute-info{
+    margin : 0 100px;
+}
+h1{
+    color : red;
+    background-color: blanchedalmond;
+}

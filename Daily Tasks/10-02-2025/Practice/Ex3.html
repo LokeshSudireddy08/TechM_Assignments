@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datalist and meter tags</title>
+    </head>
+    <body>
+        <input type="text" list="languages">
+        <datalist id="languages">
+            <option value="Java">Java</option>
+            <option value="Python"></option>
+            <option value="C"></option>
+            <option value="R"></option>
+            <option value="C++"></option>
+        </datalist>
+
+        <fieldset> 
+            <legend>Rating</legend>
+            <dl>
+                <dt>Bad Rating 0 out of 100</dt>
+                <dd><meter value="0" min="0" max="100"></meter></dd>
+                <dt>Avg Rationg 50 out of 100</dt>
+                <dd><meter value="50" min="0" max="100"></meter></dd>
+                <dt>Good Rating 100 out of 100</dt>
+                <dd><meter value="100" min="0" max="100"></meter></dd>
+            </dl>
+        </fieldset>
+    </body>
+</html>
