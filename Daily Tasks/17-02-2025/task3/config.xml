@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="itemBean" class="examples.ItemsBean">
+		<property name="itemId"> 
+			<value>1</value>
+		</property>
+		<property name="itemName">
+			<value>Dairy Milk</value>
+		</property>
+		<property name="itemCost">
+			<value>20</value>
+		</property>
+		<property name="itemQuantity">
+			<value>4</value>
+		</property>
+	</bean>
+</beans>
